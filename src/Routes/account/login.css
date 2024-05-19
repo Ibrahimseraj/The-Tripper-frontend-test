@@ -1,0 +1,31 @@
+.york{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.west{
+    margin-bottom: 20px;
+}
+.change{
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    background-color: blanchedalmond;
+    border: 1px solid #000;
+    border-radius: 6px;
+    outline: none;
+}
+*/

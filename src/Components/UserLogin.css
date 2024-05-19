@@ -1,0 +1,60 @@
+#signin {
+    width: 80%;
+    height: 100vh;
+}
+
+.login-form-con {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.login-form-con form {
+}
+
+.login-form-con form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-form-con form button {
+    margin-top: 25px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.forget-password-link {
+    margin-top: 25px;
+    color: blue;
+    cursor: pointer;
+}
+
+.link-from-login-register {
+    text-decoration: none;
+    color: black;
+}
+
+.link-from-login-forget-password {
+    text-decoration: none;
+    color: blue;
+}
+
+@media all and (max-width: 500px) {
+    #signin {
+        width: 100%;
+        margin: 0;
+    }
+    .login-form-con {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

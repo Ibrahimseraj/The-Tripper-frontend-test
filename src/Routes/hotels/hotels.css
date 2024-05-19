@@ -1,0 +1,325 @@
+#container222 {
+    width: 75%;
+    height: 30vh;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.image-containers {
+    width: 40%;
+    height: 222px;
+}
+
+.hotel-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hotel-con {
+    display: flex;
+    color: black;
+}
+
+.hotel-info {
+    margin-left: 40px;
+    width: 35%;
+}
+
+#hotel-name {
+    margin-top: 20px;
+    font-size: large;
+}
+
+.hotel-info .country-city {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.hotel-info .description {
+    margin-top: 20px;
+    word-wrap: break-word;
+    font-size: small;
+}
+
+.hotel-price {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-price p {
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+
+.status {
+    margin-top: 15px;
+    font-size: small;
+}
+
+.status span {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.camp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.country {
+    width: 74%;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 1.2rem;
+}
+
+.country h2 {
+    color: darkturquoise;
+    cursor: pointer;
+}
+
+.real {
+    display: flex;
+    position: absolute;
+    margin-left: 63rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target {
+    margin: 1rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.target:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.target:focus {
+    outline: none;
+}
+
+.street {
+    display: flex;
+    position: absolute;
+}
+
+.internet {
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.boom{
+    display: flex;
+}
+.boom li{
+    padding: 1rem;
+}
+.boom li a{
+    text-transform: capitalize;
+    color: #1d1d1d;;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.boom a:hover{
+    color: aqua;
+}
+.boom a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.boom a:hover::after{
+    width: 100%;
+    color: aqua;
+}
+
+.customSearch{
+    height: 30px;
+    border: 1.7rem solid #fff;
+    background: lightcyan;
+    align-items: center;
+    display: flex;
+    top: 5rem;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+}
+.customIcon{
+    color: lightgray;
+}
+.customSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.customSearchInput{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+.customSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.customBtn{
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.days{
+    position: absolute;
+    top: 50px;
+}
+.risks{
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0 , 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.risksItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.riskCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #000;
+}
+.riskCounterButton{
+    width: 20px;
+    height: 30px;
+    border: 1px #0071c2;
+    color: #0071c2;
+}
+.riskCounterButton:disabled{
+    cursor: not-allowed;
+}
+
+#toookkk {
+    margin-top: 130px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+
+
+
+energy {
+    text-transform: capitalize;
+    cursor: pointer;
+    align-items: center;
+    border: 2px solid blue;
+    padding: 11px;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+}
+
+.green {
+    background-color: green;
+    height: 35px;
+    color: white;
+    width: 120px;
+    border-radius: 16px;
+    border: #fff;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+
+.templete-amenity-one {
+    display: flex;
+    align-items: center;
+}
+
+.templete-amenity-name-one {
+    padding-left: 5px;
+    font-size: small;
+}
+
+.templete-amenity-two {
+    display: flex;
+    align-items: center;
+}
+
+.templete-amenity-name-two {
+    padding-left: 5px;
+    font-size: small;
+}
+
+.popularAmenities-templete-container {
+    display: flex;
+    width: 100%;
+}
+
+.templete-popularAmenities-one {
+    width: 50%;
+    overflow: hidden;
+}
+
+.templete-popularAmenities-two {
+    width: 50%;
+    overflow: hidden;
+}
+
+#templete-price-limit {
+    margin-top: 10px;
+}
+
+#amenities-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#amenities-buttons label {
+    cursor: pointer;
+}
+
+.oooooooooooo-ppppp {
+    width: 200px;
+    margin-top: 130px;
+    margin-left: 270px;
+}
+ 
+.alllllll {
+    display: flex;
+    width: 100%;
+}

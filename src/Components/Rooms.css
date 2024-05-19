@@ -1,0 +1,321 @@
+/*.room {
+  width: 20%;
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  margin-left: 20%;
+  display: flex;
+  width: 50%;
+}
+  
+  .room button {
+    background-color: #0071c2;
+    border-radius: 3px;
+    color: white;
+  }
+  
+  .con-room-img {
+    width: 45%;
+  }
+  
+  .roomimg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .room-description {
+    border-right: 1px dotted gray;
+  }
+
+  .con-mon-fon {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .hello-mello {
+    background-color: whitesmoke;
+    height: 100vh;
+  }
+
+/*room style*/
+
+.property{
+  padding-right: 19rem;
+}
+
+.drive {
+  align-items: center;
+  margin: 3rem;
+}
+
+.vrsim {
+  width: 28%;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.fax{
+  margin: -20.1rem;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  width: 50%;
+  margin-left: 0.1rem;
+  border-radius: 13px;
+  border-width: 4px;
+  background-color: #e6e6e6;
+
+}
+
+.fax h3{
+  position: relative;
+  right: 12rem;
+  text-transform: capitalize;
+}
+
+.fax h4{
+  align-items: center;
+  margin: 3rem;
+  cursor: text;
+  right: 14rem;
+  position: relative;
+}
+
+.tech{
+ position: relative;
+ bottom: 1.2rem;
+ right: 4.5rem;
+ font-size: 1rem;
+}
+
+.break{
+  position: relative;
+  left: 28rem;
+  top: 8rem
+}
+
+.break h4{
+  font-size: 20px;
+  color: #0f294d;
+  line-height: 25px;
+  font-weight: bold;
+  border-bottom: 1px dotted;
+  margin: 2.2rem;
+}
+
+.break span{
+  color: #455873;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 2.2rem;  
+  margin-bottom: -2rem;
+}
+
+.break h3{
+  margin: 2rem;
+  right: 1rem;
+}
+
+.break h3 a{
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  box-sizing: border-box;
+  background: #3264ff;
+  padding: 8px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.dark{
+  position: relative;
+  margin: 18rem;
+}
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 630px;
+  transform: translate(-50%, -50%);
+  height: 650px;
+  z-index: 3;
+  padding: 10px;
+  background: #fff;
+  overflow-y: scroll;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.overlay span{
+  display: flex;
+  padding: 0.3rem;
+}
+
+.wide{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.town {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.owner{
+  margin-top: -9rem;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  left: 12rem;
+}
+
+.publish{
+  text-transform: capitalize;
+  margin-top: -2rem;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 14rem;
+}
+
+.motion{
+  margin-top: -2rem;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 14rem;
+}
+
+.lives{
+  font-size: 20px;
+}
+
+ .functions{
+   font-size: 20px;
+   padding-left: 5rem;
+}
+
+.nooo{
+  display: flex;
+}
+
+.karma{
+  display: flex;
+  margin-top: 2.6rem;
+}
+
+.painted{
+  width: 100%;
+  height: 100%;
+}
+
+.room-templete {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.room-templete-image {
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.room-templete-image img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+
+.room-templete-details {
+  width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  margin-left: 25px;
+  overflow: hidden;
+}
+
+.room-templete-details-first-container {
+  border-right: 1px double gray;
+  width: 25%;
+  overflow: hidden;
+}
+
+.room-templete-details-second-container {
+  border-right: 1px double gray;
+  width: 25%;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.room-info {
+  display: flex;
+}
+
+.room-templete-price {
+  width: 50%;
+  text-align: center;
+}
+
+.room-templete-price button {
+  background-color: rgba(0, 225, 255, 0.114);
+  border: 1px solid aqua;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+}
+
+.room-templete-price button:hover {
+  background-color: rgb(0, 255, 255);
+  border: 1px solid aqua;
+  cursor: pointer;
+}
+
+.reservation-dates-and-other-details {
+  display: flex;
+}
+
+.reserve-button {
+  background-color: rgba(172, 255, 47, 0.295);
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+}
+
+.reserve-button:hover {
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+.reserve-button:active {
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+
+button.button-to-select-room:active,
+button.button-to-select-room:focus {
+  background-color: aqua !important;
+}

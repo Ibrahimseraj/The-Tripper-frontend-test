@@ -1,0 +1,48 @@
+.single-hotel-amenities {
+    display: flex;
+}
+
+.amenity {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.amenity p {
+    padding-left: 10px;
+}
+
+/*
+.con-room {
+    width: 50%;
+    height: 50vh;
+    overflow-y: scroll;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.room-title {
+    font-size: large;
+    font-weight: bold;
+}
+*/
+
+.single-hotel-name {
+    text-align: start;
+}
+
+#loading-the-load {
+    text-align: center;
+}
+
+#loading-the-load img {
+    border-radius: 50%;
+}
+
+.image-updating-room {
+    width: 25%;
+}
+

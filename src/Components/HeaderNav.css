@@ -1,0 +1,38 @@
+.navItems{
+    display: flex;
+    text-transform: capitalize;
+    cursor: pointer;
+    align-items: center;
+    gap: 3rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navItems a{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 25px;
+    border-radius: 0.5rem;
+}
+
+.navItems a:hover{
+   color: aqua;
+}
+
+.navItems a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navItems a:hover::after{
+    width: 100%;
+}
+
+.hhhh {
+    height: 10vh;
+}

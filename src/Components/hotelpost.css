@@ -1,0 +1,67 @@
+.hotel-post-form-con {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.PopularAmenities-post-con {
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    height: 50px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.post-image-for-hotel {
+    width: 150px;
+    height: 150px;
+    border: 2px double black;
+    border-radius: 5px;
+}
+
+.number5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.number2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotelname33 {
+    font-size: 30px;
+    padding: 1rem;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    height: 200px;
+}
+
+.description-post {
+    text-align: center;
+}
+
+.number3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.number4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.feesandpolicies-post {
+    text-align: center;
+}
+
+.aboutThisProperty-post {
+    text-align: center;
+}
+
+.PopularAmenities-post-input {
+    margin-top: 17px;
+}

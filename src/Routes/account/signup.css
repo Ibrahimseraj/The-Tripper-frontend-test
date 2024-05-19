@@ -1,0 +1,104 @@
+/*
+.form {
+    align-self: center;
+  }
+  
+  .form__input {
+    width: clamp(120px, 50vw, 420px);
+    height: 2.5rem;
+    padding: 0 1.25rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0.625rem auto;
+    transition: all 250ms;
+  
+    @media (min-width: 768px) {
+      width: clamp(120px, 35vw, 420px);
+    }
+ 
+    &:focus {
+      outline: none;
+      border-top-color: rgba(0, 0, 0, 0.1);
+    }
+    &:focus + .form__label, &:not(:placeholder-shown) + .form__label {
+      transform: translateY(-4.50rem) scale(1);
+      color: black;
+    }
+    &::placeholder {
+      display: none;
+      color: transparent;
+  
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    &:not(:placeholder-shown) {
+      border-top-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  .form__label {
+    font-size: 1rem;
+    color: grey;
+    display: block;
+    transform: translate(1.25rem, -2.5rem);
+    transform-origin: 0 0;
+    transition: all 500ms;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    pointer-events: none;
+  }
+  */
+
+
+  #signup {
+    width: 80%;
+    height: 100vh;
+}
+
+.register-form-con {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.register-form-con form {
+}
+
+.register-form-con form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.register-form-con form button {
+    margin-top: 25px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link-from-register-login {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media all and (max-width: 500px) {
+    #signup {
+        width: 100%;
+        margin: 0;
+    }
+    .register-form-con {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

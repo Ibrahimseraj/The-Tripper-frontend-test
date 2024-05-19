@@ -1,0 +1,20 @@
+.con-mon-fon {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.reservation-id-details {
+    text-align: end;
+    margin: 20px;
+}
+
+.reserves-to-hotel-to-be {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.room-details {
+    background-color: greenyellow;
+}

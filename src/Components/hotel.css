@@ -1,0 +1,324 @@
+/*
+.single-hotel-images {
+  position: absolute;
+  left: 200px;
+  display: flex;
+  width: 25%;
+}
+
+.full-image {
+  width: 100%;
+}
+
+.image-gallery-1 {
+  width: 100%;
+}
+
+.bigest-image-1 {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.image-gallery-2 {
+  width: 25%;
+}
+
+.bigest-image-2 {
+  width: 100%;
+  border-radius: 5px;
+}
+*/
+
+.single-hotel-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.image-gallery-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.image-gallery-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.bigest-image {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.Previous {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.Next {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+#single-hotel-connn {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.single-hotel-name {
+  margin-top: 10px;
+}
+
+.single-hotel-name h3 {
+  font-size: x-large;
+}
+
+.single-hotel-amenities {
+  margin-top: 15px;
+}
+
+.single-hotel-amenities p {
+  word-wrap: break-word;
+}
+
+.single-hotel-rooms {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+}
+
+.single-hotel-description {
+  margin-top: 35px;
+}
+
+.single-hotel-description h3 {
+  text-align: center;
+}
+
+.single-hotel-description p {
+  word-wrap: break-word;
+}
+
+.single-hotel-fees-policies {
+  margin-top: 150px;
+}
+
+.single-hotel-fees-policies h3 {
+  text-align: center;
+}
+
+.single-hotel-fees-policies p {
+  word-wrap: break-word;
+}
+
+.single-hotel-roomAmenities {
+  margin-top: 35px;
+}
+
+.single-hotel-roomAmenities h3 {
+  text-align: center;
+}
+
+.single-hotel-roomAmenities p {
+  word-wrap: break-word;
+}
+
+.single-hotel-aboutThisProperty {
+  margin-top: 35px;
+}
+
+.single-hotel-aboutThisProperty h3 {
+  text-align: center;
+}
+
+.single-hotel-aboutThisProperty p {
+  word-wrap: break-word;
+}
+
+.vacation{
+  color:#000;
+  padding: 4rem;
+  background: skyblue;
+}
+
+.being{
+  display: flex;
+  align-items: center;
+  margin-left: 67rem;
+}
+
+.near{
+  border: none;
+  background: #fff;
+  margin: 0.7rem;
+}
+.near:hover{
+  background: lightgrey;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.hotelContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.hotelImages{
+  display: flex;
+  width: 70%;
+  height: 350px;
+  word-wrap: break-word;
+}
+
+.hotelImgWrapper{
+  display: inline-block;
+}
+.hotelImg{
+  width: 40%;
+  display: flex;
+}
+.seeMoreButton{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5rem;
+}
+.slider{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.426);
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.slider{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.426);
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.sliderWrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderImg{
+  width: 80%;
+  height: 80vh;
+  
+}
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: lightgray;
+  cursor: pointer;
+}
+.arrow{
+  margin: 20px;
+  font-size: 45px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.description-collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.show-more-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.img-con-all {
+  position: relative;
+  left: 230px;
+}
+
+.single-hotel-container {
+  overflow: hidden;
+}
+
+.someclass2 {
+  margin-top: 5px;
+
+}
+
+.someclass4 {
+  margin-top: 5px;
+}
+
+.second-two-images {
+  margin-left: -25px;
+}
+
+.Hours {
+  display: flex;
+  justify-content: space-around;
+}
+
+.a-full-number {
+  color: gold;
+  font-size: x-large;
+}
+
+.a-number-with-points {
+  font-size: x-large;
+}
+
+.raters {
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.raters p {
+  word-wrap: break-word;
+}
+
+.veiw-ratings {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.total-result-ratings {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.total-result-ratings p {
+  margin-left: 10px;
+}
